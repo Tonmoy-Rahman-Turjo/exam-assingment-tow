@@ -122,6 +122,20 @@
         font-size: 14px;
         width: 309px;
     }
+     /* .section-fuor-chose */
+    .chose-card-one h4 {
+        font-size: 20px;
+    }
+    .chose-card {
+        flex-direction: column;
+    }
+    .chose-card-one p {
+        font-size: 14px;
+        width: 450px;
+    }
+    /* section-5-five-deals-discount */
   }
+
+ 
   
 
