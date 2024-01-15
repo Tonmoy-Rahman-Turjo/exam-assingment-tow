@@ -92,6 +92,11 @@ button.btest {
   font-size: 16px;
   border: 0px;
 }
+i.fa-solid.fa-magnifying-glass {
+  color: white;
+  font-size: 19px;
+  display: contents;
+}
 button.btest:hover{
  background: #131318;
  transition: 1s;
@@ -313,3 +318,66 @@ margin-bottom: 30px;
 }
 
 /* section-5-five-deals-discount */
+.detals-discount{
+  width: 100%;
+  height: 500px;
+  background-image: url(./Images/Group\ 39.png);
+  margin-top: 30px;
+  border-radius: 20px;
+  justify-content: end;
+  justify-items: end;
+  display: flex;
+}
+.all-detelas {
+  display: flex;
+  width: 579px;
+  height: 400px;
+  background: #ffffffa3;
+  justify-items: center;
+ 
+  margin-top: 73px;
+  margin-right: 47px;
+}
+
+  .my {
+    display: flex;
+
+ 
+}
+.my li{
+ 
+    list-style: none;
+    color: black;
+    margin-left: 30px;
+}
+
+
+.my ul li{
+  display: flex;
+  margin: 0px;
+ margin-left: 30px;
+}
+.my ul li i{
+color:#FF5400 ;
+font-size: 10px;
+}
+i.fa-solid.fa-people-group {
+  font-size: 19px;
+  color:#FF5400 ;
+}
+i.fa-solid.fa-clock {
+  font-size: 19px;
+  color:#FF5400 ;
+}
+i.fa-solid.fa-location-pin {
+  font-size: 19px;
+  color:#FF5400 ;
+}
+span{
+  color: #5A5A5D;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/*  */
