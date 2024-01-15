@@ -1,16 +1,7 @@
 @media only screen and (max-width: 868px) {
     /* section-no-one */
     section.section-tow {
-        width: 1700px;
-        margin: auto;
-        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png);
-        background-image: linear-gradient();
-        background-repeat: no-repeat;
-        margin-bottom: 50px;
-        background-size: cover;
         object-fit: cover;
-        border-radius: 11px;
-        margin-top: 50px;
         max-width: 95%;
         object-fit: cover;
     }
@@ -89,5 +80,48 @@
         margin-left: 10px;
         margin-top: 20px;
     }
-
+    /* section-no-thre-destination */
+    .destinition-inge-tow ,.destinition-inge-last-tow, .destinition-inge-thre{
+        flex-direction: column;
+     
+    }
+    .dastination-fast-img , .dastination-secend-img {
+       width: 100%;
+       background-position: center;
+       background-size: cover;
+    }
+    .dastination-thard-img {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .dastination-four-img {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .dastination-five-img{
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .dastination-six-img{
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .dastination-seven-img{
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .destination-heding-text h5 {
+        font-size: 20px;
+    }
+    .destination-heding-text p {
+        font-size: 14px;
+        width: 309px;
+    }
   }
+  
+
