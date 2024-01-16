@@ -318,66 +318,149 @@ margin-bottom: 30px;
 }
 
 /* section-5-five-deals-discount */
-.detals-discount{
-  width: 100%;
+
+.dis {
+  max-width: 81%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.discount{
+  max-width: 81%;
+  margin: auto;
   height: 500px;
   background-image: url(./Images/Group\ 39.png);
-  margin-top: 30px;
-  border-radius: 20px;
-  justify-content: end;
-  justify-items: end;
-  display: flex;
-}
-.all-detelas {
-  display: flex;
-  width: 579px;
-  height: 400px;
-  background: #ffffffa3;
-  justify-items: center;
- 
-  margin-top: 73px;
-  margin-right: 47px;
-}
-
-  .my {
+  border-radius: 17px;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    margin-top: 20px;
     display: flex;
-
- 
+    justify-content: end;
+    justify-items: center;
+    background-position: cover;
+    background-repeat: no-repeat;
 }
-.my li{
- 
-    list-style: none;
-    color: black;
-    margin-left: 30px;
-}
-
-
-.my ul li{
+/* .discoun-bg {
+  background: #ffffffa6;
   display: flex;
-  margin: 0px;
- margin-left: 30px;
+  width: 518px;
+  margin-right: 50px;
+  height: 342px;
+  margin-top: 80px;
+  border-radius: 5px;
+} */
+.discoun-bg {
+  background: #ffffffa6;
+  display: flex;
+  width: 535px;
+  margin-right: 50px;
+  height: 342px;
+  margin-top: 80px;
+  border-radius: 5px;
 }
-.my ul li i{
-color:#FF5400 ;
-font-size: 10px;
+disount-i {
+  margin-left: 44px;
 }
-i.fa-solid.fa-people-group {
-  font-size: 19px;
-  color:#FF5400 ;
+discount-icon {
+  display: flex;
+
+}
+discount-icon li i{
+  font-size: 10px;
+
+}
+discount-icon li {
+  color: #5A5A5D;
+     margin: 0px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+    list-style: none;
+    margin-right: 20px;
+    margin: 10px 5px;
+}
+
+
+
+.discount-icon li{
+  display: flex;
+  list-style: none;
 }
 i.fa-solid.fa-clock {
-  font-size: 19px;
-  color:#FF5400 ;
+  font-size: 16px;
+ margin-right: 10px;
 }
-i.fa-solid.fa-location-pin {
-  font-size: 19px;
-  color:#FF5400 ;
+i.fa-solid.fa-people-group {
+  font-size: 20px;
+  margin-right: 10px;
 }
-span{
+i.fa-solid.fa-location-dot {
+  font-size: 20px;
+  margin-right: 10px;
+
+}
+.discount-text h2 {
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 6px 0px;
+}
+/*  */
+.discount-text p{
   color: #5A5A5D;
+  width: 452px;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
+line-height: 26px;
+}
+.discount-text h6{
+  color: #FF5400;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
 line-height: normal;
 }
-/*  */
+
+
+
+
+
+.piscountjj{
+  max-width: 81%;
+  margin: auto;
+  height: 500px;
+  background-image: url(./Images/Group\ 40.png);
+  border-radius: 17px;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    justify-items: center;
+}
+.piscount{
+  max-width: 81%;
+  /* background: black; */
+  height: 500px;
+  margin: auto;
+  border-radius: 5px;
+  background-image: url(./Images/Group\ 40.png);
+  margin-top: 30px;
+  background-position:cover ;
+  background-repeat: no-repeat;
+}
+.discoun-bg {
+  background: rgba(255, 255, 255, 0.65);
+  display: flex;
+  width: 535px;
+  margin-right: 50px;
+  height: 342px;
+  margin-top: 80px;
+  border-radius: 5px;
+  margin-left: 40px;
+}

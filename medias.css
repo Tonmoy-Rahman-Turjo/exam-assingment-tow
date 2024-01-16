@@ -133,7 +133,19 @@
         font-size: 14px;
         width: 450px;
     }
+
     /* section-5-five-deals-discount */
+    .discount-text p {
+        width: 252px;
+        font-size: 14px;
+    }
+    discount-icon li {
+        font-size: 8px;
+    }
+    .discoun-bg {
+        width: 82%;
+    }
+
   }
 
  
