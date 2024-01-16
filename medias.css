@@ -157,7 +157,7 @@ section.section-tow {
     }
     video {
       
-        margin-left: 87px;
+      
     }
     .parfect-place-text h3 {
         font-size: 20px;
@@ -225,6 +225,10 @@ section.section-tow {
     }
     .copy-right {
         font-size: 13px;
+    }
+    .parfect-place-video {
+        display: flex;
+        justify-content: center;
     }
   }
 
