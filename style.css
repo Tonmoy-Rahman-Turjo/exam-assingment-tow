@@ -805,6 +805,7 @@ line-height: normal;
   
     width: 278px;
     border-radius: 5px;
+    height: 200px;
 
 }
 .bangladesh p {
@@ -838,4 +839,9 @@ line-height: normal;
   justify-content: center;
   margin-top: -100px;
 
+}
+.bangladesh:hover{
+  background: rgb(184, 181, 181);
+  cursor: pointer;
+  transition: 1s;
 }
