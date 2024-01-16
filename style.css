@@ -326,7 +326,7 @@ margin-bottom: 30px;
   flex-direction: column;
 }
 .discount{
-  max-width: 81%;
+  max-width: 100%;
   margin: auto;
   height: 500px;
   background-image: url(./Images/Group\ 39.png);
@@ -337,7 +337,7 @@ margin-bottom: 30px;
     display: flex;
     justify-content: end;
     justify-items: center;
-    background-position: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 /* .discoun-bg {
@@ -444,7 +444,7 @@ line-height: normal;
     justify-items: center;
 }
 .piscount{
-  max-width: 81%;
+  max-width: 100%;
   /* background: black; */
   height: 500px;
   margin: auto;
@@ -463,4 +463,18 @@ line-height: normal;
   margin-top: 80px;
   border-radius: 5px;
   margin-left: 40px;
+}
+button.seall {
+  position: relative;
+  top: x;
+  bottom: 9px;
+  left: 470px;
+  height: 28px;
+  width: 167px;
+  margin-top: 49px;
+  margin-bottom: 30px;
+  background: red;
+  font-size: 17px;
+  border: 0px;
+  border-radius: 5px;
 }

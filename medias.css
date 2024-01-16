@@ -145,9 +145,35 @@
     .discoun-bg {
         width: 82%;
     }
+    button.seall {
+        left: 149px;
+        border-radius: 5px;
+    }
 
   }
-
+@media (min-width:1400px) and (max-width:2100px) {
+    button.seall {
+        left: 749px;
+      
+    }
+    .discount {
+       
+        width: 100%;
+        justify-content: center;
+    }
+    .piscount {
+       
+        width: 1100px;
+    }
+}
+@media (min-width:900px) and (max-width:1400px) {
+    .discount {
+        width: 100%;
+    }
+    .piscount {
+        width: 100%;
+    }
+}
  
   
 
