@@ -45,6 +45,10 @@
   .section-tow {
     background-position: center;
 }
+section.section-tow {
+
+    background-position: center;
+}
     /* section-no-thre-our-popular-ture */
 .our-popular-ture {
       display: flex;
