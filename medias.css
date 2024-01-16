@@ -216,6 +216,12 @@
     .our-popular-text {
         max-width: 90%;
     }
+    .extra-section {
+        margin-bottom: 53px;
+    }
+    .copy-right {
+        font-size: 13px;
+    }
   }
 
 @media (min-width:1400px) and (max-width:2100px) {
