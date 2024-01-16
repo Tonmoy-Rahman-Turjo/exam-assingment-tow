@@ -57,19 +57,17 @@
 
 .our-popular-img img{    width:550px;
     }
-    .our-popular-text p{
-        font-size: 16px;
-        margin: 0px;
-        overflow-y: hidden;
-        margin-bottom: 5px;
-        margin-left: 10px;
+    
+    .our-popular-text p {
+        
+        width: 405px;
     }
     .our-popular-text ul li{
         font-size: 16px;
         margin: 0px;
         margin-bottom: 20px;
         margin-left: 10px;
-        
+        width: 402px;
     }
     .our-popular-text h5{
         font-size: 20px;
@@ -214,6 +212,9 @@
         text-align: center;
         align-items: center;
         margin-left: 41px;
+    }
+    .our-popular-text {
+        max-width: 90%;
     }
   }
 
