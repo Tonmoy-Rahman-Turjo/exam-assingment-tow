@@ -27,7 +27,7 @@ section.section-tow{
   background-size: cover;
   object-fit: cover;
   border-radius: 11px;
-  margin-top: 50px;
+  margin-top: 28px;
 }
 .explor{
   display: flex;
@@ -711,4 +711,131 @@ width: 769px;
   font-size: 20px;
   color: #131318;
 }
+.nav {
+  display: flex;
+  max-width: 81%;
+  margin: auto;
+  justify-content: space-between;
+}
+.img-nav h3{
+  
+    line-height: 46px;
+    margin-left: 10px;
+}
+.img-nav {
+  display: flex;
+}
 
+.img-nav h3 small{
+  color: #FF5400;
+}
+  
+.nev-item li{
+list-style: none;
+
+  list-style: none;
+
+
+  
+}
+.nav{
+  margin-top: 30px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.nav-item li{
+ list-style: none;
+ margin: 0px 10px;
+}
+.nav-item li a{
+ text-decoration: none;
+ color:  #424247;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.short{
+  display: none;
+}
+/* extra-section */
+.extra{
+  max-width: 81%;
+  margin: auto;
+}
+
+.extra-section {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+}
+.extra h2{
+
+    margin-bottom: 73px;
+    font-weight: 900;
+    text-align: center;
+
+}
+.bangladesh p{
+
+    width: 260px;
+    margin: 10px 0px;
+    font-weight: 400;
+    color: #000000a3;
+}
+.bangladesh {
+  width: 304px;
+  background: #bbb8b859;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 0px;
+  box-shadow: 3px 4px 25px #000000c7;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.bangladesh img{
+  
+    width: 278px;
+    border-radius: 5px;
+
+}
+.bangladesh p {
+  width: 260px;
+  margin: 10px 0px;
+  font-weight: 400;
+  color: #000000a3;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-left: 19px;
+}
+.bangladesh a{
+  
+    color: red;
+    font-weight: 800;
+    letter-spacing: 2px;
+
+
+
+}
+.bangladesh a:hover{
+  color: black;
+  letter-spacing: 5px;
+  transition: 2s;
+}
+.ex-t{
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+
+}

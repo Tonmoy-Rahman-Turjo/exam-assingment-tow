@@ -173,7 +173,50 @@
         gap: 44px;
         flex-direction: column;
     }
+    /* .nav-section */
+    .nav-item {
+        display: none;
+    }
+    .short{
+        display: block;
+        width: 40px;
+      }
+      .img-nav {
+        display: flex;
+        width: 300px;
+    }
+    .img-nav h3 {
+        line-height: 58px;
+        margin-left: 10px;
+        font-size: 24px;
+    }
+    /* extra-section */
+    .extra-section {
+      
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .bangladesh{
+        width:85%;
+    }
+    .bangladesh p {
+        width: 90%;
+    }
+    .bangladesh {
+        width: ;
+        background: #bbb8b859;
+        border-radius: 5px;
+        text-align: center;
+        padding: 20px 0px;
+        box-shadow: 3px 4px 25px #000000c7;
+        margin-bottom: 100px;
+        text-align: center;
+        align-items: center;
+        margin-left: 41px;
+    }
   }
+
 @media (min-width:1400px) and (max-width:2100px) {
     button.seall {
         left: 749px;
