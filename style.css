@@ -113,14 +113,14 @@ button.btest:hover{
 .our-popular-text h5{
   color: #131318;  font-size: 40px; font-style: normal; font-weight: 800; line-height: normal; margin: 0px;margin-bottom: 20px;
 }
-.our-popular-text p, ul li{
+.our-popular-text p,  li{
   color: rgba(19, 19, 24, 0.70); font-size: 16px; font-style: normal; font-weight: 400; line-height: 26px; width: 577px;
    
 }
 .our-popular-text p{
   margin-bottom: 20px;
 }
-.our-popular-text ul li{ width: 525px; margin-bottom: 10px;}
+.our-popular-text  li{ width: 525px; margin-bottom: 10px;}
 .our-popular-img img{ width: 460px; height: 514px; border-radius: 5px;}
 .fast-btn{color: white; font-size: 20px; font-weight: 800; line-height: normal;background: #FF5400;border-radius: 8px;width: 174px;height: 52px; outline: 0px; border: 0px; margin-top: 35px;}
 .fast-btn:hover{background: black; transition: 1s; cursor: pointer; border: 2px solid red;}
@@ -167,7 +167,7 @@ margin-top: 50px;
     justify-items: center;
 }
 .dastination-fast-img{
-  background-image: url(./Images/Rectangle\ 5.png);
+  background-image:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url(./Images/Rectangle\ 5.png);
   border-radius: 14px;
   width: 573px;
   height: 300px;
@@ -178,7 +178,7 @@ margin-top: 50px;
   background-repeat: no-repeat;
 }
 .dastination-secend-img{
-  background-image: url(./Images/Rectangle\ 8.png);
+  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 8.png);
   border-radius: 14px;
   width: 573px;
   height: 300px;
@@ -198,7 +198,7 @@ margin-top: 50px;
 .dastination-thard-img{
   width: 362px;
 height: 286px;
-background-image: url(./Images/Rectangle\ 6.png);
+background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 6.png);
 border-radius: 15px;
 /* object-fit: contain; */
 background-repeat: no-repeat;
@@ -211,7 +211,7 @@ display: flex;
 .dastination-four-img{
   width: 465px;
   height: 286px;
-  background-image: url(./Images/Rectangle\ 7.png);
+  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 7.png);
   border-radius: 13px;
   background-repeat: no-repeat;
   /* object-fit: contain; */
@@ -223,7 +223,7 @@ display: flex;
 .dastination-five-img{
   width: 280px;
   height: 286px;
-  background-image: url(./Images/Rectangle\ 9.png);
+  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 9.png);
   border-radius: 13px;
   background-repeat: no-repeat;
   object-fit: contain;
@@ -243,7 +243,7 @@ display: flex;
 .dastination-six-img{
   width: 473px;
 height: 300px;
-background-image: url(./Images/Rectangle\ 11.png);
+background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 11.png);
 border-radius: 13px;
 background-repeat: no-repeat;
 /* object-fit: contain; */
@@ -255,7 +255,7 @@ color: white;
 .dastination-seven-img{
   width: 673px;
   height: 300px;
-  background-image: url(./Images/Rectangle\ 10.png);
+  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 10.png);
   border-radius: 13px;
   background-repeat: no-repeat;
   background-size: cover;
