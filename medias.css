@@ -168,6 +168,11 @@
         width: 431px;
         font-size: 14px;
     }
+     /* information-section-seven */
+     .all-section-information-box {
+        gap: 44px;
+        flex-direction: column;
+    }
   }
 @media (min-width:1400px) and (max-width:2100px) {
     button.seall {
