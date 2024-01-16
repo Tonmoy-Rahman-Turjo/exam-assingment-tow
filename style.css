@@ -340,15 +340,7 @@ margin-bottom: 30px;
     background-position: center;
     background-repeat: no-repeat;
 }
-/* .discoun-bg {
-  background: #ffffffa6;
-  display: flex;
-  width: 518px;
-  margin-right: 50px;
-  height: 342px;
-  margin-top: 80px;
-  border-radius: 5px;
-} */
+
 .discoun-bg {
   background: #ffffffa6;
   display: flex;
@@ -477,4 +469,81 @@ button.seall {
   font-size: 17px;
   border: 0px;
   border-radius: 5px;
+  cursor: pointer;
+}
+button.seall:hover{
+  background-color: black;
+  transition: 1s;
+}
+
+/* perfacet-place-section-six */
+.place{
+  max-width: 81%;
+  margin: auto;
+}
+.parfect-place{
+ 
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 70px;
+}
+
+.parfect-place-text h3{
+  color: #131318;
+  width: 448px;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+
+}
+.parfect-place-text p{
+  color: #5A5A5D;
+  width: 532px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin: 10px 0px;
+}
+.parfect-place-text li{
+  color: #131318;
+   width: 518px;
+   font-family: Mulish;
+  font-size: 16px;
+   font-style: normal;
+  font-weight: 700;
+   line-height: 26px;
+   margin: 10px 0px;
+    text-align: center;
+}
+button.see-more {
+  height: 34px;
+  width: 119px;
+  background: #FF5400;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+button.see-more:hover{
+  background:black ;
+  transition: 1s;
+  cursor: pointer;
+}
+video {
+  height: 200px;
+  width: 335px;
+  text-align: center;
+}
+.parfect-place-video {
+  display: flex;
+  align-items: center;
+}
+/* section-information-box-section-seven */
+.info{
+  max-width: 81%;
+  margin: auto;
 }

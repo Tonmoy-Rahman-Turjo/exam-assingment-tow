@@ -149,7 +149,25 @@
         left: 149px;
         border-radius: 5px;
     }
-
+      /* secyion-six-parfect-place */
+    .parfect-place {
+        flex-direction: column;
+    }
+    video {
+      
+        margin-left: 87px;
+    }
+    .parfect-place-text h3 {
+        font-size: 20px;
+    }
+    .parfect-place-text p {
+        width: 421px;
+        font-size: 14px;
+    }
+    .parfect-place-text li {
+        width: 431px;
+        font-size: 14px;
+    }
   }
 @media (min-width:1400px) and (max-width:2100px) {
     button.seall {
