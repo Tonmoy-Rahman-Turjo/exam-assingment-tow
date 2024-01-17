@@ -260,7 +260,7 @@ section.section-tow {
     .discoun-bg {
         background: rgba(255, 255, 255, 0.65);
         display: flex;
-        width: 535px;
+        
         margin-right: 50px;
         height: 384px;
         margin-top: 80px;
@@ -268,7 +268,101 @@ section.section-tow {
         margin-left: 40px;
         padding-bottom: 20px;
     }
+    .textd h6 {
+        
+        font-size: 24px;
+       
+    }
+    .discount-text p {
+        width: 227px;
+        font-size: 14px;
+    }
+    .our-popular-text p, li {
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        width: 577px;
+        width: 335px;
+    }
+    .our-popular-text li {
+        font-size: 14px;
+        margin: 0px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        width: 335px;
+    }
+    .chose-card-one p {
+        font-size: 11px;
+        width: 313px;
+        box-sizing: border-box;
+    }
+    .discoun-bg {
+        background: rgba(255, 255, 255, 0.65);
+        display: flex;
+        margin-right: 50px;
+        height: 384px;
+        margin-top: 80px;
+        border-radius: 5px;
+        padding-bottom: 20px;
+    }
+    .piscoun-bg {
+        background: rgba(255, 255, 255, 0.65);
+        display: flex;
+        margin-right: 50px;
+        height: 384px;
+        margin-top: 80px;
+        border-radius: 5px;
+        padding-bottom: 20px;
+    }
+    .information-text {
+        border: 2px solid #ff00005e;
+        width: 268px;
+        padding-left: 20px;
+    }
+    .information-text p {
+        color: #5A5A5D;
+        width: 250px;
+    }
 }
- 
+@media (min-width:470px) and (max-width:585px) {
+    .chose-card-one p {
+        font-size: 14px;
+        width: 350px;
+    }
+    .chose-card-one p {
+        font-size: 14px;
+        width: 350px;
+    }
+    .discoun-bg {
+        background: rgba(255, 255, 255, 0.65);
+        display: flex;
+        margin-right: 50px;
+        height: 384px;
+        margin-top: 80px;
+        border-radius: 5px;
+        padding-bottom: 20px;
+    }
+}
+@media (min-width:200px) and (max-width:3900px) {
+    .img-futer h3 {
+        font-size: 22px;
+    }
+    .textd h6 {
+        font-size: 18px;
+    }
+    .information-text {
+        border: 2px solid #ff00005e;
+        width: 217px;
+        padding-left: 20px;
+    }
+    .discount-text p {
+        width: 227px;
+        font-size: 9px;
+    }
+}
+
+
   
 
